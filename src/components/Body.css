@@ -1,0 +1,83 @@
+.body {
+    background: linear-gradient(rgb(91, 87, 115), rgba(0, 0, 0, 1));
+    height: 100vh;
+    flex: 0.8;
+    color: #fff;
+    padding: 30px;
+    overflow-y: overlay;
+}
+
+.body::-webkit-scrollbar {
+    display: none;
+}
+
+.body__info {
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+.body__info img {
+    height: 232px;
+    width: 232px;
+    min-width: auto;
+    min-height: auto;
+    margin: 0 20px;
+    box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+}
+
+.body__infoText {
+    flex: 1;
+}
+
+.body__infoText>h1 {
+    font-size: 96px;
+    font-family: karla;
+    letter-spacing: -8px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.body__infoText>p {
+    font-size: 14px;
+}
+
+.body__icons {
+    display: flex;
+    align-items: center;
+}
+
+.body__shuffle {
+    font-size: 80px !important;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .body__infoText>h1 {
+        font-size: 50px;
+    }
+}
+
+.body__shuffle:hover {
+    transition: 100ms transform ease-in;
+    transform: scale(1.08);
+    cursor: pointer;
+    -webkit-transition: 100ms transform ease-in;
+    -moz-transition: 100ms transform ease-in;
+    -ms-transition: 100ms transform ease-in;
+    -o-transition: 100ms transform ease-in;
+    -webkit-transform: scale(1.08);
+    -moz-transform: scale(1.08);
+    -ms-transform: scale(1.08);
+    -o-transform: scale(1.08);
+}
+
+.body__songs {
+    margin: 20px -30px;
+}
+
+.body__icons>.MuiSvgIcon-root {
+    margin-right: 20px;
+}

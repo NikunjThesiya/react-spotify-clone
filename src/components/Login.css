@@ -1,0 +1,25 @@
+.login {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.login>img {
+    width: 60%;
+    object-fit: contain;
+}
+
+.login>a {
+    padding: 18px;
+    background-color: #1db954;
+    border-radius: 99px;
+    -webkit-border-radius: 99px;
+    -moz-border-radius: 99px;
+    -ms-border-radius: 99px;
+    -o-border-radius: 99px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    font-family: karla;
+}
